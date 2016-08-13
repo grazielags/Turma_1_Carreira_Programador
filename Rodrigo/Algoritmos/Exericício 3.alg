@@ -4,19 +4,17 @@ var
    idade1, idade2, idade3, idade4, idade5, Resultado: inteiro
 inicio
 
-      escreval ("idade 1")
+      escreval ("Insira a 1ª idade")
                leia (Idade1)
-      escreval ("idade ")
+      escreval ("Insira a 2ª idade")
                leia (Idade2)
-      escreval ("idade 3")
+      escreval ("Insira a 3ª idade")
                leia (Idade3)
-      escreval ("idade 4")
+      escreval ("Insira a 4ª idade")
                leia (Idade4)
-      escreval ("idade 5")
+      escreval ("Insira a 5ª idade")
                leia (Idade5)
                     Resultado<- (idade1 + idade2 + idade3 + idade4 + idade5) div 5
-      escreval ("A média das idades é",Resultado)
-      
-
+      escreval ("A média das idades é", Resultado)
       
 fimalgoritmo
