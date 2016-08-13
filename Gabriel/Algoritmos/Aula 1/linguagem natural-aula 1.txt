@@ -1,0 +1,13 @@
+Problema:
+  somar 2 valores;
+Entradas:
+  2 valores inteiros,x=20,y=5 e z=x+y
+  Saídas:
+           A soma:soma=x+y;
+
+Algorítimo:
+   Início
+   x=20 e y=5
+   Calcular a soma de x e y
+   Escreva a soma
+  Fim
