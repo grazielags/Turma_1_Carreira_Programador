@@ -15,4 +15,9 @@ inicio
       senao
          escreval ("O numero", numero, " é ímpar")
       fimse
+      se numero >= 0 entao
+         escreval ("O numero", numero, " é positivo")
+      senao
+         escreval ("O numero", numero, " é negativo")
+      fimse
 fimalgoritmo
