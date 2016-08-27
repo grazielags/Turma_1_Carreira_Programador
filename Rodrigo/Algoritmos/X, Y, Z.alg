@@ -1,4 +1,4 @@
-algoritmo "Exercício 1"
+algoritmo "X, Y, Z"
 
 var
    X, Y, Z: inteiro
