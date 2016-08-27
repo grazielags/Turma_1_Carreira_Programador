@@ -6,12 +6,12 @@ algoritmo "Mercado"
 var
 compra, pago, troco : Real
 inicio
-      escreval ("Entre com o valor da compra: ")
+      escreva ("Entre com o valor da compra: R$ ")
                leia (compra)
-      escreval ("Entre com o valor pago: ")
+      escreva ("Entre com o valor pago: R$ ")
                leia (pago)
                     troco:= (pago-compra)
-      escreval ("O valor do troco é ", troco, " Reais")
+      escreval ("O valor do troco é: R$ ", troco, " Reais")
       
       
       

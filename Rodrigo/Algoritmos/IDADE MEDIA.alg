@@ -1,4 +1,4 @@
-algoritmo "Exercício 3"
+algoritmo "IDADE MEDIA"
 
 var
    idade1, idade2, idade3, idade4, idade5, Resultado: inteiro
