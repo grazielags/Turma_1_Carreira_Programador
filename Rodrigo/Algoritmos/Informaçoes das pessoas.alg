@@ -4,9 +4,9 @@ algoritmo "Informaçoes das pessoas"
 // Data : 8/27/2016
 // Seção de Declarações 
 var
-   nome:caractere
-   telefone, idade:inteiro
-   endereco:caractere
+   nome, telefone, endereco: caractere
+   idade: inteiro
+
 inicio
       escreva("Digite seu nome: ")
                  leia(nome)
