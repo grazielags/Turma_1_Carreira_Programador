@@ -14,9 +14,9 @@ inicio
       leia (n2)
       escreval
       se n1 > n2 entao
-            dif = n1 - n2
+            dif <- n1 - n2
       senao
-            dif = n2 - n1
+            dif <- n2 - n1
       fimse
       Escreva ("A dif entre os numeros é: ", dif)
 fimalgoritmo
