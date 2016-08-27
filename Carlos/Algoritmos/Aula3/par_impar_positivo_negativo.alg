@@ -14,7 +14,7 @@ inicio
            escreva ("Esse número é impar")
       fimse
       
-      se num1 > 0 entao
+      se num1 >= 0 entao
          escreva (" e positivo")
       senao
            escreva (" e negativo")

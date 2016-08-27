@@ -16,7 +16,7 @@ inicio
 
       media <- (nota1 + nota2 + nota3) / 3
       
-      se media > 7 entao
+      se media >= 7 entao
          escreva ("O Aluno ", nome, " foi Aprovado")
       senao
            escreva ("O Aluno ", nome, " foi Reprovado")
