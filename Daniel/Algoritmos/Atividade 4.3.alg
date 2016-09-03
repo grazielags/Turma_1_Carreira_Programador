@@ -19,14 +19,20 @@ inicio
       leia (b)
       escreval ("comprimento lado c: ")
       leia (c)
-      enquanto (a<=0) e (b<=0) e (c<=0) faca
-                escreval ("VOCÊ DIGITOU TODAS AS OPÇÕES ZERO, TENTE NOVAMENTE!")
-                 escreval ("comprimento lado a: ")
-                 leia (a)
-                 escreval ("comprimento lado b: ")
-                 leia (b)
-                 escreval ("comprimento lado c: ")
-                 leia (c)
+      enquanto a<=0 faca
+               escreval ("VOCÊ DIGITOU ZERO, TENTE NOVAMENTE!")
+               escreval ("comprimento lado a: ")
+               leia (a)
+      fimenquanto
+      enquanto b<=0 faca
+               escreval ("VOCÊ DIGITOU ZERO, TENTE NOVAMENTE!")
+               escreval ("comprimento lado b: ")
+               leia (b)
+      fimenquanto
+      enquanto c<=0 faca
+               escreval ("VOCÊ DIGITOU ZERO, TENTE NOVAMENTE!")
+               escreval ("comprimento lado c: ")
+               leia (c)
       fimenquanto
       se ((a+b) >= c) e ((a+c) >=b) e ((b+c) >= a) entao
          se (a=b) e (b=c) entao
