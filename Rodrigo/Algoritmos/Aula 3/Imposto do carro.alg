@@ -13,9 +13,9 @@ inicio
       leia(preco)
 
       se (ano >= 1990) entao
-         imposto:= 1.5/100 * preco + preco
+         imposto:= 1.5/100 * preco
       senao
-         imposto:= 1/100 * preco + preco
+         imposto:= 1/100 * preco
       fimse
       
       escreval("O imposto a ser pago do seu veiculo é de R$ ", imposto, " reais")

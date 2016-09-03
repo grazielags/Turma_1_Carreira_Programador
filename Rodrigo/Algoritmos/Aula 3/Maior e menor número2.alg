@@ -21,29 +21,30 @@ inicio
                 
       se num2 > maior entao
                 maior:= num2
+      fimse
       se num3 > maior entao
                 maior:= num3
+      fimse
       se num4 > maior entao
                 maior:= num4
+      fimse
       se num5 > maior entao
                 maior:= num5
-      fimse
-      fimse
-      fimse
       fimse
       
       se num1 < menor entao
                 menor:= num1
+      fimse
       se num3 < menor entao
                 menor:= num3
+      fimse
       se num4 < menor entao
                 menor:= num4
+      fimse
       se num5 < menor entao
                 menor:= num5
       fimse
-      fimse
-      fimse
-      fimse
+
       
       escreval
       
