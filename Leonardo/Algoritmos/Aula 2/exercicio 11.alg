@@ -4,10 +4,11 @@ algoritmo "semnome"
 // Data : 27/08/2016
 // Seção de Declarações
 var
-km, m :inteiro
+km :inteiro
+m :real
 inicio
 Escreval("Digite a km/h do veiculo")
 leia(km)
-m <- km*1000
-Escreval(km," km/h equivalem a",m,"m/h")
+m <- ((km*1000)/3.6))
+Escreval(km," km/h equivalem a",m,"m/s")
 fimalgoritmo
