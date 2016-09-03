@@ -8,26 +8,32 @@ valor, cem, cinq, vinte, dez, cinco, um: inteiro
 
 inicio
       escreva ("Digite valor: ")
-      leia (nota)
+      leia (valor)
 
-      se nota > 100 entao
-         cem <-  (nota div 100)
+      se valor > 100 entao
+         cem <-  (valor div 100)
+         valor <- (valor mod 100)
       fimse
-      se nota > 50 entao
-         cinq <- (nota div 50)
+      se valor > 50 entao
+         cinq <- (valor div 50)
+         valor <- (valor mod 50)
       fimse
-      se nota > 10 entao
-         dez <- (nota div 10)
+      se valor > 10 entao
+         dez <- (valor div 10)
+         valor <- (valor mod 10)
       fimse
-      se nota > 5 entao
-         cinco <- (nota div 5)
+      se valor > 5 entao
+         cinco <- (valor div 5)
+         valor <- (valor mod 5)
       fimse
-      se nota > 1 entao
-         um <- (nota div 1)
+      se valor > 1 entao
+         um <- (valor div 1)
+
       fimse
-      escreval ("Nota(s) de 100: ", cem)
-      escreval ("Nota(s) de 50: ", cinq)
-      escreval ("Nota(s) de 10: ", dez)
-      escreval ("Nota(s) de 5: ", cinco)
-      escreva  ("Nota(s) de 1: ", um)
+      escreval ("Nota(s) de R$ 100,00: ", cem)
+      escreval ("Nota(s) de R$ 50,00: ", cinq)
+      escreval ("Nota(s) de R$ 10,00: ", dez)
+      escreval ("Nota(s) de R$ 5,00: ", cinco)
+      escreva  ("Nota(s) de R$ 1,00: ", um)
+      
 fimalgoritmo
