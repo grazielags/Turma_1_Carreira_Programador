@@ -1,0 +1,18 @@
+1-não é possível pois o visuAlg não aceita a atribuição de um
+valor real para um valor inteiro
+
+2-A)sua idade:numérico inteiro
+B)a área de sua casa:numérico real
+C)o número de estrelas no céu:numérico inteiro
+Do endereço da sua casa:caractere
+
+6-A)b=2.5:real
+B)c=12.5:real
+C)4.5:real
+D)1.5:real
+E)5.75:real
+F)3:inteiro
+G)4.375:real
+H8.75:real
+
+7-A)erro pois os nomes estão diferentes
