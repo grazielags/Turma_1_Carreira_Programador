@@ -1,32 +1,51 @@
-algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 27/08/2016
-// Seção de Declarações 
+algoritmo "04ValorMaiorMenorDe5Numeros"
 var
-valor: vetor[1..5] de inteiro
-maior, menor: real
-n: inteiro
+v1,v2, v3, v4, v5, maior, menor:real
 
 inicio
-// Seção de Comandos
-
-n := 1
-maior := 0
-menor := 99999
-
-para n de 1 ate 5 faca
-   escreva("Entre com",n,"º numero: ")
-   leia(valor[n])
-   se (valor[n] > maior) entao
-      maior := valor[n]
-   fimse
-   se (valor[n] < menor) entao
-      menor := valor[n]
-   fimse
-fimpara
-escreval
-escreval("Maior valor : ",maior)
-escreval("Menor valor: ",menor)
+      escreval ("Valor 1: ")
+      leia (v1)
+      escreval ("valor 2: ")
+      leia (v2)
+      escreval ("valor 3: ")
+      leia (v3)
+      escreval ("valor 4: ")
+      leia (v4)
+      escreval ("Valor 5: ")
+      leia (v5)
+      maior <- v1
+      menor <- v1
+      //criar uma variável e atribuir a ela o valor
+      //para poder comparar as demais variáveis,
+      //e assim fazer com que o
+      // algoritimo faça uma comparação entre eles
+      se v2 > maior entao
+         maior <- v2
+      fimse
+      se v2 < menor entao
+         menor <- v2
+      fimse
+      se v3 > maior entao
+         maior <- v3
+      fimse
+      se v3 < menor entao
+         menor <- v3
+      fimse
+      se v4 > maior entao
+         maior <- v4
+      fimse
+      se v4 < menor entao
+         menor <- v4
+      fimse
+      se v5 > maior entao
+         maior <- v5
+      fimse
+      se v5 < menor entao
+         v5 <- menor
+      fimse
+      escreval ("o maior numero é: ", maior)
+      escreval ("O menor numero é: ", menor)
+      
+      
 
 fimalgoritmo
