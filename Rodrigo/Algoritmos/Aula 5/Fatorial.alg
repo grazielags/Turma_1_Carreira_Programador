@@ -4,14 +4,15 @@ algoritmo "semnome"
 // Data : 9/10/2016
 // Seção de Declarações 
 var
-   i, n, resultado: inteiro
+   n, i, resultado : inteiro
 inicio
-      escreval("Digite um valor para seu fatorial: ")
+      escreval("Digite o numero da fatorial: ")
       leia(n)
       resultado:= n
-      para i de n-1 ate 1 passo -1 faca
-           resultado:= resultado*i
+      para i de 1 ate (n-1) passo 1 faca
+           resultado:= resultado * (n-i)
       fimpara
-      escreva(resultado)
+      escreval(resultado)
       
 fimalgoritmo
+
