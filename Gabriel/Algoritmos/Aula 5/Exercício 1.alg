@@ -4,12 +4,10 @@ algoritmo "semnome"
 // Data : 03/09/2016
 // Seção de Declarações 
 var
-       count : inteiro
+        i: inteiro
 
 inicio
-      repita
-               Escreval(count)
-               count <- count - 1
-      ate count < 100
-
+      para i de 100 ate 1 passo -1 faca
+           escreval(i)
+      fimpara
 fimalgoritmo

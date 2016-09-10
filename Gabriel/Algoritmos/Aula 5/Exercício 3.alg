@@ -4,31 +4,15 @@ algoritmo "semnome"
 // Data : 03/09/2016
 // Seção de Declarações 
 var
-
-var
-   idade , maiorIdade , quantidade , i : inteiro
-   sexo : logico
-   cor : caractere
-
+   i , base , potencia , resultado : inteiro
 inicio
-      para i de 0 ate 4 passo 1 faca
-           escreva("Digite um valor para indivíduos do sexo feminino: ")
-           leia(sexo)
-           escreval("Digite um cor de olho: ")
-           escreval("A - azuis")
-           escreval("V - verdes")
-           escreval("C - castanhos")
-           leia(cor)
-           escreval("Digite o valor para idade: ")
-           leia(idade)
-           se maiorIdade = 0 entao
-              maiorIdade <- idade
-           senao
-                se Idade > maiorIdade entao
-                   maiorIdade <- idade
-                fimse
-             fimse
+      resultado <- 1
+      escreva("Entre com o valor de base: ")
+      leia(base)
+      escreva("Entre com o valor de potência: ")
+      leia(potencia)
+      para i de 1 ate potencia passo 1 faca
+           resultado <- resultado * base
       fimpara
-      escreva("maiorIdade: ", maiorIdade)
-fimalgoritmo
+      escreval("A potência de base: ", base, " na potencia: ", potencia, "é :",resultado)
 fimalgoritmo
