@@ -2,7 +2,7 @@ algoritmo "metade"
 
 var
 
-   metade: vetor [0..9] de inteiro
+   metade: vetor [0..9] de real
    valor: vetor [0..9] de inteiro
    i: inteiro
 
@@ -14,7 +14,8 @@ inicio
            escreval ("Para a posição[",i, "] digite um valor: ")
            leia (valor[i])
 
-           metade[i] <- (valor[i]) div 2
+           metade[i] <- (valor[i]) / 2
+         //valor[i] <- (valor[i]) / 2
       fimpara
 
       para i de 0 ate 9 passo 1 faca
