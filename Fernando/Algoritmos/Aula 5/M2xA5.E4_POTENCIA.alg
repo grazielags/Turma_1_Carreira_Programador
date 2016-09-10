@@ -7,7 +7,7 @@ var
    x, y, i, potencia: inteiro
    
 inicio
-      Escreval ("Entre com 2 valores: ")
+      Escreval ("Entre com 2 valores (base e potencia respectivamente): ")
       Leia (x)
       Leia (y)
       Se (x = 0) entao
@@ -16,9 +16,9 @@ inicio
            Se (y = 0) entao
               potencia <-1
            Senao
-              potencia <- x
+              potencia <- x  // caso potencia <- 1
            Fimse
-           Para i de 1 ate (y-1) passo 1 faca
+           Para i de 1 ate (y-1) passo 1 faca   // i de 1 ate y passo 1....
               i <- i + 1
               potencia <- potencia * x
             Fimpara

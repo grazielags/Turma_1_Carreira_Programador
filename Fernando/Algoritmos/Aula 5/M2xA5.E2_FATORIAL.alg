@@ -9,10 +9,9 @@ var
 inicio
       Escreva ("Digite o nº a ser fatorado: ")
       Leia (N)
-      i <- 1
-      para N de 1 ate (N - 1) passo 1 faca
-           i <- i + 1
-           fat <- N * (N - i)
+      fat <- N
+      Para i de (N-1) ate 1 passo -1 faca
+             fat <- fat * i
       fimpara
       Escreval (N,"! =",fat)
       
