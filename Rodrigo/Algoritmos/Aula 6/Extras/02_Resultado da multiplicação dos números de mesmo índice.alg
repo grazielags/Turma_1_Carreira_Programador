@@ -16,8 +16,6 @@ inicio
       para i de 0 ate 4 passo 1 faca
            escreval("Digite o numero")
            leia(y[i])
-      fimpara
-      para i de 0 ate 4 passo 1 faca
            z[i]:= x[i] * y[i]
       fimpara
       para i de 0 ate 4 passo 1 faca
