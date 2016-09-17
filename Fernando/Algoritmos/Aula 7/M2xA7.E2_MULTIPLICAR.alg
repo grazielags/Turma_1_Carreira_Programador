@@ -11,24 +11,25 @@ var
 inicio
       Escreval ("Definindo a matriz 1")
       Para l de 0 ate 1 passo 1 faca
-        para c de 0 ate 1 passo 1 faca
-          escreval("Digite os valores: [", l,"][", c,"]")
-          leia(m1[l, c])
-        fimpara
+         para c de 0 ate 1 passo 1 faca
+            escreval("Digite os valores: [", l,"][", c,"]")
+            leia(m1[l, c])
+         fimpara
       Fimpara
       escreval
       Escreval ("Definindo a matriz 2")
       Para l de 0 ate 1 passo 1 faca
-        para c de 0 ate 1 passo 1 faca
-          escreval("Digite os valores: [", l,"][", c,"]")
-          leia(m2[l, c])
-        fimpara
+         para c de 0 ate 1 passo 1 faca
+            escreval("Digite os valores: [", l,"][", c,"]")
+            leia(m2[l, c])
+         fimpara
       Fimpara
       Para l de 0 ate 1 passo 1 faca
-        para c de 0 ate 1 passo 1 faca
-             m3[l,c] <- m1[l,c]*m2[l,c]
-             escreval ("M1 x M2 = M3[", l, "][", c, "] = ", m3[l,c])
-        fimpara
+         para c de 0 ate 1 passo 1 faca
+              m3[l,c] <- m1[l,c]*m2[l,c]
+              escreval ("M3 = M1 x M2 [", l, "][", c, "] = ", m3[l,c])
+      // poderia fazer direto sem a matriz M3: ([", l, "][", c, "] = ", m1[l,c] * m2[l,c]) "
+         fimpara
       Fimpara
 
 fimalgoritmo
