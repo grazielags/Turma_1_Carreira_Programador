@@ -26,25 +26,22 @@ procedimento p_exibir()
 
 inicio
       repita
-             repita
-                   escreval("Menu")
-                   escreval("Digite")
-                   escreval("1 - Inserir")
-                   escreval("2 - Exibir")
-                   escreval("3 - Sair")
-                   leia(menu)
-                   escolha menu
-                           caso 1
-                                p_inserir
-                           caso 2
-                                p_exibir
-                           caso 3
-                                escreval("Saindo")
-                           outrocaso
-                                    escreval("Número inválido")
-                   fimescolha
-             ate (menu = 1) ou (menu = 2) ou (menu = 3)
-             ate menu = 3
-             fimrepita
+            escreval("Menu")
+            escreval("Digite")
+            escreval("1 - Inserir")
+            escreval("2 - Exibir")
+            escreval("3 - Sair")
+            leia(menu)
+            escolha menu
+                    caso 1
+                         p_inserir
+                    caso 2
+                         p_exibir
+                    caso 3
+                         escreval("Saindo")
+                    outrocaso
+                             escreval("Número inválido")
+            fimescolha
+      ate menu = 3
       fimrepita
 fimalgoritmo
