@@ -1,0 +1,103 @@
+http://treinamento.voffice.com.br/login/index.php
+cpf 
+Programmer@2016 - @Um2345678
+
+----- Controle de versão
+
+- CVS - Controle de versão
+
+- GIT - github.com - carlosignacio @Um2345678 
+* commita primeiro na maquina do usuário;
+* GITHUB - Servidor de dados (Repositório); 
+
+--git commit --amend (Adiciona informação mas não altera data do COMMIT original na maquina local do usuário)
+--git push (Envia todas as alterações ao servidor) Ex: git push origin <master> (<master> nome do local remoto)
+--git pull (Baixa os arquivos e alterações do servidor 
+--git add . (Adicionar os arquivos, preparando commit)
+--git rebase --continue (continuar as verificações dos arquivos reiniciando o processo)
+--git status (verifica status dos arquivos a serem enviados ao servidor)
+--git commit -m "Novo commit" (commita e adiciona cometário que aparecerá no github quando for executado o git push)
+--git log (visualiza árvore de commit);
+
+
+- Criar Pastas
+C:\Carreira do Programador\Turma_1_Carreira_Programador
+
+
+$git pull
+
+* www.draw.io - Criar Fluxograma online gratis
+* Linguagem tipada: Declaração de variáveis por tipo (caractere, real, inteiro, logico)
+
+
+----- Visualg
+
+- Executar (F9)
+- Comentário (//)
+	-- Não utilizar comentário no JavaScript, pois fica disponível para o usuário final 
+
+- Tipos de Dados:
+	-- caractere: Qualquer co1sa? (Letras, Números, Símbolos)
+	-- inteiro: 14 (números sem vírgula, positivos ou negativos)
+	-- real: 14,1 (números separados por vírgula, positivos ou negativos, inteiros ou fracionados)
+	-- logico: verdadeiro ou falso (True ou False) por default é falso, porém no se (if) considera verdadeiro
+
+git pull
+git add .
+git commit -m "Aula Algoritmo"
+git pull
+git push origin master
+
+
+-- Condicional encadeado
+
+se xxx entao
+	aaaaaaa
+senao
+	bbbbbbb
+	se ccccc entao
+		ddddddddd
+	fimse
+fimse
+
+
+
+-- Decisão por seleção
+
+x <- 7
+escolha x 
+caso 0,1,2,3
+	escreva 
+caso 5 ate 7,4
+	escreva
+caso 8 ate 10
+	escreva
+outrocaso
+	escreva
+fimescolha
+
+
+
+-- Estrutura de Repetição
+
+enquanto ssssssssss faca
+	escreva
+fimenquanto
+
+
+----- Exercicio
+
+1 - situacao_aluno
+2 - flor_do_campo
+3 - triangulo
+4 - ajuste_salarial
+5 - seguradora
+6 - soma_pares
+7 - tabuada
+8 - menor_maior
+9 - divisiveis
+
+------ Execicio
+
+1 - valores_decrescentes
+2 - fatorial
