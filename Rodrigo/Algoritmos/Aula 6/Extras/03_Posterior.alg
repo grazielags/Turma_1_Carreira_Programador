@@ -4,22 +4,22 @@ algoritmo "semnome"
 // Data : 9/10/2016
 // Seção de Declarações 
 var
-   K : vetor[0..5] de inteiro
+   K : vetor[0..4] de inteiro
    i : inteiro
    posterior: inteiro
 inicio
-      para i de 0 ate 5 passo 1 faca
+      para i de 0 ate 4 passo 1 faca
            escreval("Digite o numero")
            leia(K[i])
       fimpara
-      para i de 0 ate 5 passo 1 faca
-           se K[i] mod 2 = 0 entao
+      para i de 0 ate 4 passo 1 faca
+           se (i mod 2 <> 0) e (i<4) entao
               posterior:= K[i]
-           senao
-                K[i]:= posterior
+              k[i]:=k[i+1]
+              k[i+1]:=posterior
            fimse
       fimpara
-      para i de 0 ate 5 passo 1 faca
+      para i de 0 ate 4 passo 1 faca
            escreval(K[i])
       fimpara
 fimalgoritmo
