@@ -2,10 +2,10 @@ algoritmo "semnome"
 // Função :
 // Autor :
 // Data : 9/10/2016
-// Seção de Declarações 
+// Seção de Declarações
 var
    N : vetor[0..5] de real
-   M : real
+   M : real //Menor numero//
    i, P : inteiro
    
 inicio

@@ -10,6 +10,7 @@ inicio
       para l de 0 ate 4 passo 1 faca
            para c de 0 ate 4 passo 1 faca
                 x[l,c]:= l + c
+                escreval("[", l, "] [", c, "]: ", x[l,c])
            fimpara
       fimpara
 fimalgoritmo
