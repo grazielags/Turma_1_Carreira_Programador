@@ -1,0 +1,188 @@
+http://treinamento.voffice.com.br/login/index.php
+cpf 
+Programmer@2016 - @Um2345678
+
+----- Controle de versão
+
+- CVS - Controle de versão
+
+- GIT - github.com - carlosignacio @Um2345678 
+* commita primeiro na maquina do usuário;
+* GITHUB - Servidor de dados (Repositório); 
+
+--git commit --amend (Adiciona informação mas não altera data do COMMIT original na maquina local do usuário)
+--git push (Envia todas as alterações ao servidor) Ex: git push origin <master> (<master> nome do local remoto)
+--git pull (Baixa os arquivos e alterações do servidor 
+--git add . (Adicionar os arquivos, preparando commit)
+--git rebase --continue (continuar as verificações dos arquivos reiniciando o processo)
+--git status (verifica status dos arquivos a serem enviados ao servidor)
+--git commit -m "Novo commit" (commita e adiciona cometário que aparecerá no github quando for executado o git push)
+--git log (visualiza árvore de commit);
+
+
+- Criar Pastas
+C:\Carreira do Programador\Turma_1_Carreira_Programador
+
+- baixar o aplicativo bash (gitbash)
+https://git-for-windows.github.io/
+Obs: Instalação NNF
+
+$ cd /c/Carreira do Programador/Turma_1_Carreira_Programador
+$ git clone https://github.com/grazielags/Turma_1_Carreira_Programador.git (Baixa dos fontes do repositório)
+$ git log
+$ mkdir Carlos
+$ AulaGIT.txt (Criado via windows)
+$ git status
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Carlos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+$ git add .
+$ git status
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Carlos/AulaGIT.txt
+
+$ git commit -m "Carlos"
+
+[master d6bd2ed] Carlos
+ Committer: aluno <aluno>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Carlos/AulaGIT.txt
+
+
+$git pull
+
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+From https://github.com/grazielags/Turma_1_Carreira_Programador
+   c339ed1..b389b7f  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ Graziela/Novo Graziela.txt | 1 +
+ Graziela/teste.txt         | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Graziela/Novo Graziela.txt
+ create mode 100644 Graziela/teste.txt
+
+
+$ git push origin master
+
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 559 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+To https://github.com/grazielags/Turma_1_Carreira_Programador.git
+   b389b7f..d8450a9  master -> master
+
+
+----- ALGORITMOS
+
+- Linguagem Natural
+- Fluxograma
+- Português Estruturado * 
+  Visualg - http://www.apoioinformatica.inf.br/produtos/visualg
+
+* Exercício
+
+1.  
+
++ Linguagem Natural
+
+ Problema
+	Somar 2 Valores e Armazenar a soma de ambos
+    Entradas
+	x = 20, y = 5, z
+    Saídas
+	z = x + y;
+    Algoritmo
+	Início
+	Ler x, y
+	Calcular z de x + y
+	Escreva z
+	Fim
+
++ Fluxograma
+
+
++ Portugues Estruturado
+- Visualg - http://www.apoioinformatica.inf.br/produtos/visualg
+
+* F9 Executa para testes
+
+algoritmo "Soma de Z"
+
+var
+   x, y, z: inteiro
+inicio
+      x <- 20
+      escreval("O valor de X é: ", x)
+      y <- 5
+      escreval("O valor de Y é: ", y)
+      z <- x + y
+      escreva("A Soma dos Valores é: ", z)
+fimalgoritmo
+
+------------------------------------------------
+algoritmo "Soma e Subtração"
+
+var
+   a, b, c, d: inteiro
+inicio
+      a <- 4
+      escreval("O valor de X é: ", a)
+      b <- 3
+      escreval("O valor de Y é: ", b)
+      c <- a + b
+      escreval("A Soma dos Valores é: ", c)
+      d <- a - b
+      escreval("A Subtração dos Valores é: ", d)
+fimalgoritmo
+------------------------------------------------
+
+
+algoritmo "Media de Idade"
+
+var
+   a, b, c, d, f, soma : inteiro
+   media : Real
+inicio
+      escreva("Digite a Primeira Idade: ")
+      leia (a)
+      escreva("Digite a Segunda Idade: ")
+      leia (b)
+      escreva("Digite a Terceira Idade: ")
+      leia (c)
+      escreva("Digite a Quarta Idade: ")
+      leia (d)
+      escreva("Digite a Quarta Idade: ")
+      leia (f)
+      soma <- (a + b + c + d + f)
+      media <- (soma / 5)
+      escreval("A Média de Idade é: ", media)
+fimalgoritmo
