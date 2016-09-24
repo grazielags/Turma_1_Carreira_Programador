@@ -1,0 +1,163 @@
+http://treinamento.voffice.com.br/login/index.php
+cpf 
+Programmer@2016 - @Um2345678
+
+----- Controle de versão
+
+- CVS - Controle de versão
+
+- GIT - github.com - carlosignacio @Um2345678 
+* commita primeiro na maquina do usuário;
+* GITHUB - Servidor de dados (Repositório); 
+
+--git commit --amend (Adiciona informação mas não altera data do COMMIT original na maquina local do usuário)
+--git push (Envia todas as alterações ao servidor) Ex: git push origin <master> (<master> nome do local remoto)
+--git pull (Baixa os arquivos e alterações do servidor 
+--git add . (Adicionar os arquivos, preparando commit)
+--git rebase --continue (continuar as verificações dos arquivos reiniciando o processo)
+--git status (verifica status dos arquivos a serem enviados ao servidor)
+--git commit -m "Novo commit" (commita e adiciona cometário que aparecerá no github quando for executado o git push)
+--git log (visualiza árvore de commit);
+
+
+- Criar Pastas
+C:\Carreira do Programador\Turma_1_Carreira_Programador
+
+
+$git pull
+
+* www.draw.io - Criar Fluxograma online gratis
+* Linguagem tipada: Declaração de variáveis por tipo (caractere, real, inteiro, logico)
+
+
+----- Visualg
+
+- Executar (F9)
+- Comentário (//)
+	-- Não utilizar comentário no JavaScript, pois fica disponível para o usuário final 
+
+- Tipos de Dados:
+	-- caractere: Qualquer co1sa? (Letras, Números, Símbolos)
+	-- inteiro: 14 (números sem vírgula, positivos ou negativos)
+	-- real: 14,1 (números separados por vírgula, positivos ou negativos, inteiros ou fracionados)
+	-- logico: verdadeiro ou falso (True ou False) por default é falso, porém no se (if) considera verdadeiro
+
+git pull
+git add .
+git commit -m "Aula Algoritmo"
+git pull
+git push origin master
+
+
+------ Exercicio
+
+1 - valores_decrescentes
+2 - fatorial
+3 - pesquisa
+4 - potencia
+5 - pessoas
+6 - parcelas
+7 - salario
+
+
+
+
+----------- VETOR ---------------
+
+* uma linha e várias colunas [0..2]
+* apenas valores do mesmo tipo
+* o visualg aceita que inicie em qualquer posição
+* Array (Todos os campos de um vetor)
+* vetor sempre tem colchetes []
+
+------ Exercicio
+
+1 - posicoes
+2 - quadrado
+3 - metade
+4 - nadador
+
+------ Exercicio extra
+
+1 - menor_elemento (menor_elemento_graziela)
+2 - multiplicacao_elementos_graziela
+3 - troca_elementos_graziela
+4 - valores_pares_graziela
+5 - trocar_posicoes_graziela
+6 - mostrar_positivos_graziela
+
+
+
+
+----------- MATRIZES ---------------
+
+* várias linhas e várias colunas [0..2, 0..1] - [linhas, colunas]
+* para para
+* apenas valores do mesmo tipo
+* o visualg aceita que inicie em qualquer posição
+* Indices são linha e coluna (l, c) então a soma dos indices é a soma da linha com a coluna
+
+
+------ Exercicio
+
+1 - matriz_maior_menor
+2 - matriz_multiplica
+3 - matriz_diagonal
+4 - matriz_soma
+5 - matriz_alunos
+6 - matriz_soma_linha_graziela
+7 - matriz_soma_indices_graziela
+
+
+
+----------- PROCEDIMENTO ---------------
+
+* NÃO RETONA O VALOR NO FONTE
+* EXIBE AO USUÁRIO
+* REUTILIZAÇÃO DO CÓDIGO
+
+
+----------- FUNÇÃO () ---------------
+
+* RETONA O VALOR NO FONTE
+* RETORNA VALOR PARA O FONTE, PARA AGREGAR AO CÓDIGO
+* REUTILIZAÇÃO DO CÓDIGO
+
+
+------ Exercicio
+
+1 - quantidade_lados
+2 - calculadora
+3 - numero_maior
+4 - menu
+5 - procedimento_posicoes
+6 - soma_impares
+7 - par_impar
+
+----------- PARAMETROS ---------------
+
+* FUNCAO X(NUM, NUM1)
+  RESULTADO <- X(1, 2)
+  
+
+----------- RECURSIVIDADE ---------------
+ 
+* Precisa ter um ponto de parada
+* Chamar função dentro dela mesma
+* Somente como função (Mais usual)
+
+
+----------- REFINAMENTO SUCESSIVO ---------------
+
+* Minimizar os problemas
+* Dividir para conquistar
+
+------ Exercicio
+
+1 - par_impar
+2 - notas
+3 - 
+4 - 
+5 - 
+6 - 
+7 - 

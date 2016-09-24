@@ -1,0 +1,103 @@
+http://treinamento.voffice.com.br/login/index.php
+cpf 
+Programmer@2016 - @Um2345678
+
+----- Controle de versão
+
+- CVS - Controle de versão
+
+- GIT - github.com - carlosignacio @Um2345678 
+* commita primeiro na maquina do usuário;
+* GITHUB - Servidor de dados (Repositório); 
+
+--git commit --amend (Adiciona informação mas não altera data do COMMIT original na maquina local do usuário)
+--git push (Envia todas as alterações ao servidor) Ex: git push origin <master> (<master> nome do local remoto)
+--git pull (Baixa os arquivos e alterações do servidor 
+--git add . (Adicionar os arquivos, preparando commit)
+--git rebase --continue (continuar as verificações dos arquivos reiniciando o processo)
+--git status (verifica status dos arquivos a serem enviados ao servidor)
+--git commit -m "Novo commit" (commita e adiciona cometário que aparecerá no github quando for executado o git push)
+--git log (visualiza árvore de commit);
+
+
+- Criar Pastas
+C:\Carreira do Programador\Turma_1_Carreira_Programador
+
+
+$git pull
+
+* www.draw.io - Criar Fluxograma online gratis
+* Linguagem tipada: Declaração de variáveis por tipo (caractere, real, inteiro, logico)
+
+
+----- Visualg
+
+- Executar (F9)
+- Comentário (//)
+	-- Não utilizar comentário no JavaScript, pois fica disponível para o usuário final 
+
+- Tipos de Dados:
+	-- caractere: Qualquer co1sa? (Letras, Números, Símbolos)
+	-- inteiro: 14 (números sem vírgula, positivos ou negativos)
+	-- real: 14,1 (números separados por vírgula, positivos ou negativos, inteiros ou fracionados)
+	-- logico: verdadeiro ou falso (True ou False) por default é falso, porém no se (if) considera verdadeiro
+
+git pull
+git add .
+git commit -m "Aula Algoritmo"
+git pull
+git push origin master
+
+
+------ Exercicio
+
+1 - valores_decrescentes
+2 - fatorial
+3 - pesquisa
+4 - potencia
+5 - pessoas
+6 - parcelas
+7 - salario
+
+
+
+
+----------- VETOR ---------------
+
+* uma linha e várias colunas [0..2]
+* apenas valores do mesmo tipo
+* o visualg aceita que inicie em qualquer posição
+* Array (Todos os campos de um vetor)
+* vetor sempre tem colchetes []
+
+------ Exercicio
+
+1 - posicoes
+2 - quadrado
+3 - metade
+4 - nadador
+
+------ Exercicio extra
+
+1 - menor_elemento
+
+
+
+
+
+----------- MATRIZES ---------------
+
+* várias linhas e várias colunas [0..2, 0..1] - [linhas, colunas]
+* para para
+* apenas valores do mesmo tipo
+* o visualg aceita que inicie em qualquer posição
+
+------ Exercicio
+
+1 - matriz_maior_menor
+2 - matriz_multiplica
+3 - matriz_diagonal
+4 - matriz_soma
+5 - matriz_alunos
+6 - 
+7 - 
