@@ -21,7 +21,7 @@ Inicio
     leia (n1)
     leia (n2)
     enquanto (n1 > 10) ou (n2 > 10) faca
-       escreval ("Verifique as notas novamente")
+       escreval ("Digite as notas novamente")
        leia (n1)
        leia (n2)
     fimenquanto
