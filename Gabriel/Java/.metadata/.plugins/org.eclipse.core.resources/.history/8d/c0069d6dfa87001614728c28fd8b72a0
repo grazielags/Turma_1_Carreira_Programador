@@ -1,0 +1,22 @@
+
+public class MaioreMenor {
+	public static void main(String[] args) Scanner sc = new Scanner(System.in);
+    int n1, n2, n3;
+
+    System.out.print("Entre com o primeiro inteiro: ");
+    n1 = sc.nextInt();
+    System.out.print("Entre com o segundo inteiro: ");
+    n2 = sc.nextInt();
+    System.out.print("Entre com o terceiro inteiro: ");
+    n3 = sc.nextInt();
+    if(n1 > n2){
+    	System.out.println("Esse número é o maior");
+    	else 
+    		if(n2 > n3){
+    			System.out.println("Esse númro é o maior");
+    			else
+    				if(n1 > n3){
+    					System.out.println("Esse número é o maior");
+    	System.out.println("Fim do programa);
+    		}
+    }
