@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-//M3.A2-E1_AreaTrapezio
-=======
 //MODULO 3 - EXERC 1 E 2
 
 
