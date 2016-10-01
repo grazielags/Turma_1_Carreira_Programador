@@ -4,22 +4,23 @@ algoritmo "semnome"
 // Data : 9/17/2016
 // Seção de Declarações 
 var
-   resultado, num: inteiro
+   total , num , resultado : inteiro
 
-funcao f_soma(f_num: inteiro): inteiro
+funcao somaNumeros(auxiliar , n : inteiro): inteiro
        inicio
-             se f_num = 0 entao
-                retorne f_num
+             se auxiliar = n entao
+                total <- n
+                retorne total
              senao
-                  retorne f_num + f_soma(f_num - 1)
+                  total <- auxiliar + somaNumeros(auxiliar + 1, n)
              fimse
-
+             retorne total
        fimfuncao
 
 inicio
       escreval("Digite um número para se somar do 0 até esse número")
       leia(num)
-      resultado:= f_soma(num)
-      escreval("A soma dos números de 0 até ", num, " é ", resultado)
+      total := fsoma(num)
+      escreval("A soma dos números de 0 até ", num, " é ", total')
 
 fimalgoritmo
