@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 
 //M3.A2-E1_AreaTrapezio
+=======
+//MODULO 3 - EXERC 1 E 2
+
+
+>>>>>>> c5a6c95e68c86250c408902c6ee9c4adc0679600
 
 import javax.swing.JOptionPane;
 
