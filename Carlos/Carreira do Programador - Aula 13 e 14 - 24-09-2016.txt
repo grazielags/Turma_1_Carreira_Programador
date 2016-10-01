@@ -1,0 +1,174 @@
+http://treinamento.voffice.com.br/login/index.php
+cpf 
+Programmer@2016 - @Um2345678
+
+V0ff1c32014
+
+----- Controle de versão
+
+- CVS - Controle de versão
+
+- GIT - github.com - carlosignacio @Um2345678 
+* commita primeiro na maquina do usuário;
+* GITHUB - Servidor de dados (Repositório); 
+
+--git commit --amend (Adiciona informação mas não altera data do COMMIT original na maquina local do usuário)
+--git push (Envia todas as alterações ao servidor) Ex: git push origin <master> (<master> nome do local remoto)
+--git pull (Baixa os arquivos e alterações do servidor 
+--git add . (Adicionar os arquivos, preparando commit)
+--git rebase --continue (continuar as verificações dos arquivos reiniciando o processo)
+--git status (verifica status dos arquivos a serem enviados ao servidor)
+--git commit -m "Novo commit" (commita e adiciona cometário que aparecerá no github quando for executado o git push)
+--git log (visualiza árvore de commit);
+
+
+- Criar Pastas
+C:\Carreira do Programador\Turma_1_Carreira_Programador
+
+
+$git pull
+
+* www.draw.io - Criar Fluxograma online gratis
+* Linguagem tipada: Declaração de variáveis por tipo (caractere, real, inteiro, logico)
+
+
+----- Visualg
+
+- Executar (F9)
+- Comentário (//)
+	-- Não utilizar comentário no JavaScript, pois fica disponível para o usuário final 
+
+- Tipos de Dados:
+	-- caractere: Qualquer co1sa? (Letras, Números, Símbolos)
+	-- inteiro: 14 (números sem vírgula, positivos ou negativos)
+	-- real: 14,1 (números separados por vírgula, positivos ou negativos, inteiros ou fracionados)
+	-- logico: verdadeiro ou falso (True ou False) por default é falso, porém no se (if) considera verdadeiro
+
+git pull
+git add .
+git commit -m "Aula Algoritmo"
+git pull
+git push origin master
+
+
+----------- REFINAMENTO SUCESSIVO ---------------
+
+* Minimizar os problemas
+* Dividir para conquistar
+
+------ Exercicio
+
+1 - par_impar
+2 - notas
+3 - soma_numeros_recursividade
+4 - potencia_recursividade
+5 - indice_vetor_recursividade
+6 - tabuada_recursividade
+
+* Lógico sempre considera a variável sempre verdadeira na primeira opção de validação
+
+
+----------- PRÁTICAS DE LINGUAGEM DE PROGRAMAÇÃO --------------
+
+--- Aula 1 ----
+
+- INSTALAÇÃO E CONFIGURAÇÃO DO JAVA - 
+* jdk
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?ssSourceSiteId=otnpt
+- NNF
+- C:\Program Files\Java\jdk1.8.0_101
+- Váriáveis de Ambiente
+- Criar Nova Variável de Sistema
+	JAVA_HOME
+	C:\Program Files\Java\jdk1.8.0_101
+
+- NOTEPAD++
+- OlaMundo.java
+- cmd - Acessar o caminho da pasta - C:\Carreira do Programador\Turma_1_Carreira_Programador\Carlos\Java\Aula1
+
+//Compilar//
+- javac OlaMundo.java (Cria o arquivo OlaMundo.class)
+
+//Executar//
+- java OlaMundo
+
+- Javadoc - Comentários em arquivo para todas as nossas classes
+/**
+xxxx
+*/
+
+//Comando para criar as pastas do JavaDocs e criar os documentos com os comentários
+- Gera vários htmls com as instruções e commentários
+javadoc src/* -d JavaDocs
+
+
+--- Aula 2 ----
+
+- TIPOS DE DADOS -
+
+** Big Decimal (Utilizado pelo Java para opções monetárias)
+
+* Numérico
+	inteiro (byte, short, int, long)
+	real (float, double)
+
+* Literal
+	Valores Alfanumérico (Sempre "aspas duplas") (Char, String)
+	
+	Char - 'sempre aspas simples' Armazenado um único Caracter
+	String - "sempre aspas duplas" 
+	
+
+* Lógico
+	true or false (boolean)
+	% (O mesmo que mod no algoritmo)
+	boolean isPar = 4%2 == 0;
+
+	
+- CONSTANTES E VARIÁVEIS -
+
+* Constantes
+	- final
+	  final int MAIOR_IDADE = 18;
+	  final boolean IS_ATIVO = true;
+	  final String PESSOA_FISICA = "PF";
+	  final char SEXO_FEMININO - 'F'
+
+* Variáveis
+	- Podem ser alteradas durante a execução
+	  double saldo = 200.00;
+	  int qtd = 10;
+	  boolean isFeminino = true;
+	  char tipoEmpresa = 'F'
+	  String nome = "Maria";
+	  Saldo = 1000.00;
+
+* IDENTIFICADORES
+
+	- Java é Case Sensitive
+	- Permitido
+		Letras de A á Z
+		_ (underline)
+		$ (Cifrão)
+		Números de 0 a 9, somente após o segundo caractere
+
+* PALAVRAS RESERVADAS DO JAVA
+
+
+* LENDO DADOS DO TECLADO
+	- Scanner
+	- JOtionPane
+
+---- Exercicio
+
+1 - Trapezio.java
+2 - 
+3 - 
+4 - 
+5 - 
+6 - 
+7 - 
+8 - 
+9 - 
+
+* javac Trapezio.java -encoding "UTF8" (Compila definindo encondig UTF8)
