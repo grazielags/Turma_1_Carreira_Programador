@@ -14,6 +14,6 @@ public class ExemploTecladoJOptionPane {
 						+ "\nSexo: " + sexo
 						+ "\nEmpréstimo: " + numero
 						+ "\nSalário: " + salario
-						+ "\nCasa própria?: " + isCasaPropria);
+						+ "\náCasa própria?: " + isCasaPropria);
 	}
 }
