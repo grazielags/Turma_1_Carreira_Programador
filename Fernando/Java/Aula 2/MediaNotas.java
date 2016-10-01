@@ -1,5 +1,5 @@
 
-//MODULO 3 - AULA 2 - EXERC 7 - None e notas do aluno
+//MODULO 3 - AULA 2 - EXERC 7 - Nome e notas do aluno
 
 import javax.swing.JOptionPane;
 
