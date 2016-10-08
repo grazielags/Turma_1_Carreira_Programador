@@ -15,10 +15,12 @@ public class AprovOuReprov {
 		if (md < 7.0)
 			JOptionPane.showMessageDialog(null, md + "\n Reprovado. Sinto Muito.");
 		
-		if (md > 10.0)
+		else{
+			if (md > 10.0)
 			JOptionPane.showMessageDialog(null, md + "\n Média invalida. Verifique as notas.");
 		
-		else
+			else
 			JOptionPane.showMessageDialog(null, md + "\n Aprovado.");
+		}
 	}
 }	
