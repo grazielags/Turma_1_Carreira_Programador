@@ -10,8 +10,8 @@ Menus:
 		3 - Usuários (Essa opção do menu só estará disponível caso o usuário possua perfil Admin)
 
 		Menu Livros:
-			1 - Cadastrar (Essa opção do menu só estará disponível caso o usuário possua perfil Admin)
-			2 - Consultar (Qualque perfil)
+			1 - Consultar (Qualquer perfil)
+			2 - Cadastrar (Essa opção do menu só estará disponível caso o usuário possua perfil Admin)
 			3 - Remover (Essa opção do menu só estará disponível caso o usuário possua perfil Admin)
 
 		Menu Empréstimos:
