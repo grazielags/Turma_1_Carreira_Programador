@@ -8,10 +8,10 @@ public class Calculadora {
 	public static void main(String[] args){
 		
 		JOptionPane.showMessageDialog(null, "Selecione a operação matemaica que deseja efetuar?");
-		char operacao = JOptionPane.showInputDialog("Soma (+), Subt (-), Multip (x), Divisão (/)").toUpperCase().charAt(0);
+		char operacao = JOptionPane.showInputDialog("Soma (+), Subt (-), Multip (x), Divisão (/)").charAt(0);
 		JOptionPane.showMessageDialog(null, "Digite 2 numeros (reais ou inteiros) para realizar a operação selecionada?");
-		float n1 = Float.parseFloat(JOptionPane.showInputDialog("N1"));
-		float n2 = Float.parseFloat(JOptionPane.showInputDialog("N2"));
+		float n1 = Float.parseFloat(JOptionPane.showInputDialog("N1 = "));
+		float n2 = Float.parseFloat(JOptionPane.showInputDialog("N2 = "));
 		float resultado = 0;
 		
 		switch (operacao) {
