@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+D:\Carreira do Programador\Turma_1_Carreira_Programador\Daniel\Java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2613434512.index
+3755606876.index
+618776400.index
+4097142494.index
+28028429.index
+3485526048.index
