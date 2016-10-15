@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Curso Voffice">
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <property name="context-root" value="Curso_Voffice"/>
-        <property name="java-output-path" value="/Curso Voffice/build/classes"/>
-    </wb-module>
-</project-modules>
