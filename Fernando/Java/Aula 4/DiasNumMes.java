@@ -1,9 +1,9 @@
 
-//MODULO 3 - AULA 4 - EXERC 5 - Dias num Mes
+//MODULO 3 - AULA 4 - EXERC 5 - Qts Dias no Mes
 
 import javax.swing.JOptionPane;
 
-public class DiasNumMes {
+public class DiasMes {
 		
 	public static void main(String[] args){
 		
