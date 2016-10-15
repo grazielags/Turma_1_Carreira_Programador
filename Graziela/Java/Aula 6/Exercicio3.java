@@ -9,5 +9,6 @@ public class Exercicio3 {
 			potencia = potencia * x;
 		}
 		JOptionPane.showMessageDialog(null, x + " elevado na potencia: " + y + " é: " + potencia);
+//		String teste = JOptionPane.showInputDialog(null, "Qual o seu Nome?", "Testando", JOptionPane.DEFAULT_OPTION);
 	}
 }
