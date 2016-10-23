@@ -14,5 +14,5 @@ inicio
       para i de 1 ate potencia passo 1 faca
            resultado <- resultado * base
       fimpara
-      escreval("A potência de base: ", base, " na potencia: ", potencia, "é :",resultado)
+      escreval("A potência de base: ", base, " na potencia: ", potencia, " é :",resultado)
 fimalgoritmo

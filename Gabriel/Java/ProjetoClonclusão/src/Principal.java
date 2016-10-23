@@ -1,4 +1,5 @@
 import javax.swing.JOptionPane;
+import javax.swing.JPasswordField;
 
 public class Principal {
 
@@ -9,10 +10,10 @@ public class Principal {
 																+ "\n3- Logar"));
 		switch (opcao) {
 			case 1:
-				cadastrar();
+				cadastrarUsuario();
 				break;
 			case 2:
-				consultar();
+				consultarUsuario();
 				break;
 			case 3:
 				logar();
@@ -21,16 +22,30 @@ public class Principal {
 				break;
 		}
 	}
-
+	public static void consultarUsuario() {
+		String nomeUsuario = JOptionPane.showInputDialog("Nome do Usuário:");
+	}
+	public static void cadastrarUsuario() {
+		String nomeUsuario = JOptionPane.showInputDialog("Nome do Usuário:");
+		String endereco = JOptionPane.showInputDialog("Endereço do Usuário:");
+		int perfil = Integer.parseInt(JOptionPane.showInputDialog("Perfil do Usuário:"));
+		String login = JOptionPane.showInputDialog("Login:");
+		String senha = JOptionPane.showInputDialog("Senha:");
+	}
 	public static void consultar() {
-		
+		String nome = JOptionPane.showInputDialog("Nome:");
 	}
-
 	public static void cadastrar() {
-		
+		String nomeLivro = JOptionPane.showInputDialog("Nome do livro:");
+		String autor = JOptionPane.showInputDialog("autor:");
+		int anoDaEdicao = Integer.parseInt(JOptionPane.showInputDialog("Ano da edição:"));
 	}
-
 	public static void logar() {
+		String login = JOptionPane.showInputDialog("Login:");
+		JPasswordField jpf = new JPasswordField();
+		JOptionPane.showMessageDialog(null, new Object[]{"Senha", jpf});
+		String senha = new String(jpf.getPassword());
+		System.out.println("Senha: "+ senha);
 		int opcao =	Integer.parseInt(JOptionPane.showInputDialog("1- Livros"
 																+ "\n2- Empréstimos"
 																+ "\n3- Usuários"));
@@ -48,7 +63,6 @@ public class Principal {
 				break;
 		}	
 	}
-
 	public static void livros() {
 		int opcao =	Integer.parseInt(JOptionPane.showInputDialog("Menu Livros:"
 																+ "\n1- Consultar"
@@ -62,15 +76,14 @@ public class Principal {
 				cadastrar();
 				break;
 			case 3:
-				remover();
+				removerLivro();
 				break;
 			default:
 				break;
 		}
 	}
-
-	public static void remover() {
-		
+	public static void removerLivro() {
+		int id = Integer.parseInt(JOptionPane.showInputDialog("id:"));
 	}
 
 	public static void emprestimos() {
@@ -79,38 +92,36 @@ public class Principal {
 																+ "\n2- devolver livro"));
 			switch (opcao) {
 			case 1:
-				RealizarEmprestimoDoLivro();
+				realizarEmprestimoDoLivro();
 				break;
 			case 2:
-				DevolverLivro();
+				devolverLivro();
+				
 			default:
 				break;
 		}
 	}
-
-	public static void DevolverLivro() {
-		
+	public static void devolverLivro() {
+		int id = Integer.parseInt(JOptionPane.showInputDialog("id:"));
 	}
 
-	public static void RealizarEmprestimoDoLivro() {
-		
+	public static void realizarEmprestimoDoLivro() {
+		int id = Integer.parseInt(JOptionPane.showInputDialog("Id do Livro:"));
+		int idUsuario = Integer.parseInt(JOptionPane.showInputDialog("Id do Usuário:"));
 	}
-
-	public static void livro() {
-		
-	}
-
 	public static void usuarios() {
 		int opcao =	Integer.parseInt(JOptionPane.showInputDialog("Menu Usuário:"
-																+ "\n1- Remover"));
+																+ "\n1- Remover Usuário"));
 			switch (opcao) {
 			case 1:
-				remover();
+				removerUsuario();
 				break;
 			default:
 				break;
 		}
+	}
+	public static void removerUsuario() {
+		int id = Integer.parseInt(JOptionPane.showInputDialog("id:"));
 	}
 
 }
- 
