@@ -1,16 +1,10 @@
 import javax.swing.JOptionPane;
 
-public class Menu_Cadastro {
+public class Menus {
 
 	public static void main(String[] args) {
-		/*
-		Dados de cadasto do Usuário:
-		Nome
-		Endereço
-		Perfil (1 - Admin, 2 - Usuário normal)
-		Login
-		Senha
-		*/
+		
+
 	}
 	
 	public static void menu_cadastro() {
