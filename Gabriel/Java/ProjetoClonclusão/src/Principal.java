@@ -29,8 +29,12 @@ public class Principal {
 		String nomeUsuario = JOptionPane.showInputDialog("Nome do Usuário:");
 		String endereco = JOptionPane.showInputDialog("Endereço do Usuário:");
 		int perfil = Integer.parseInt(JOptionPane.showInputDialog("Perfil do Usuário:"));
+
 		String login = JOptionPane.showInputDialog("Login:");
-		String senha = JOptionPane.showInputDialog("Senha:");
+		JPasswordField jpf = new JPasswordField();
+		JOptionPane.showMessageDialog(null, new Object[]{"Senha", jpf});
+		String senha = new String(jpf.getPassword());
+		System.out.println("Senha: "+ senha);
 	}
 	public static void consultar() {
 		String nome = JOptionPane.showInputDialog("Nome:");
