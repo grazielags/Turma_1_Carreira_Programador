@@ -3,8 +3,8 @@
 		System.out.println("O que será escrito na tela.");
 		System.out.println("O que será escrito na tela.");
 		System.out.println("O que será escrito na tela.");
-		System.out.println("O que será escrito na tela.");
-		System.out.println("O que será escrito na tela.");
+		System.out.println("O que não será escrito na tela.");
+		System.out.println("O que não será escrito na tela.");
 		System.out.println("O que será escrito na tela.");
 		System.out.println("O que será escrito na tela.");
 	}
