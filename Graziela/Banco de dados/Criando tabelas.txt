@@ -1,0 +1,23 @@
+create table usuario (
+	id integer not null primary key auto_increment,
+	nome varchar(50) not null,
+	endereco varchar(50) not null,
+	perfil integer not null,
+	login varchar(20) not null,
+	senha varchar(20) not null
+) ENGINE=InnoDB;
+
+create table livro (
+	id integer not null primary key auto_increment,
+	nome varchar(50) not null,
+	autor varchar(50) not null,
+	ano_edicao integer not null
+) ENGINE=InnoDB;
+
+create table emprestimo (
+	id integer not null primary key auto_increment,
+	id_usuario integer not null,
+	id_livro integer not null,
+	constraint foreign key (id_usuario) references usuario (id),
+	constraint foreign key (id_livro) references livro (id)
+) ENGINE=InnoDB;
