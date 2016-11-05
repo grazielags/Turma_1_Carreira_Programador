@@ -1,0 +1,24 @@
+
+Inserindo dados na tabela
+
+INSERT INTO nomeTabela [(listaColunas)]
+VALUES (listaValores)
+listaColunas: nome dos campos da tabela separados
+por vírgula.
+listaValores: os valores devem seguir a mesma
+
+Exemplos:
+INSERT INTO usuario (nome, endereco, perfil, login, senha)
+VALUES ('Maria', 'Rua das Nações', 1, 'maria', '123456');
+
+INSERT INTO livro (nome, autor, ano_edicao)
+VALUES
+('Livro 1', 'Autor A', 2016),
+('Livro 2', 'Autor A', 1996),
+('Livro 3', 'Autor B', 2009),
+('Livro 4', 'Autor c', 2009);
+
+INSERT INTO emprestimo (id_usuario, id_livro)
+VALUES
+(5,3),
+(1,2);

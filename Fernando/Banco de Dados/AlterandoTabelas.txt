@@ -1,0 +1,31 @@
+ALTERANDO A TABELA
+qdo a palavra esta entre colchetes [] o que esta dentro eh opcional
+
+Adicionando colunas:
+ALTER TABLE nomeDaTabela ADD COLUMN
+	nomeDaColuna tipo (NOT NULL OU NULL)
+nomeDaColuna
+(caso queira a coluna obrigatoria adicionar NOT NULL, caso queira opcional pode deixar em branco ou entao NULL)
+
+Alterando colunas:
+ALTER TABLE nomeDaTabela MODIFY COLUMN
+	nomeDaColuna tipo (NOT NULL OU NULL)
+	
+Removendo colunas:
+ALTER TABLE nomeDaColuna DROP COLUMN COLUMN
+	nomeDaColuna tipo (NOT NULL OU NULL)
+	
+Renomeando colunas:
+ALTER TABLE nomeDaTabela CHANGE COLUMN
+	nomeDaColuna tipo (NOT NULL OU NULL)
+
+Renomeando colunas:
+ALTER TABLE nomeTabela
+CHANGE COLUMN nomeAntigo nomeNovo tipoDado [NULL|NOT NULL]
+	
+Renomeando tabela:
+ALTER TABLE nomeAntigo
+RENAME [TO] novoNome
+
+Removendo tabela:
+DROP TABLE nomeTabela

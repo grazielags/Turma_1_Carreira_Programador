@@ -1,0 +1,19 @@
+
+Atualizando Dados
+Atualizando o registro da tabela usuário que possui
+nome Maria para nome = 'Joana' e login = 'joana'
+
+UPDATE usuario SET nome = 'Joana', login = 'joana'
+WHERE nome like 'Maria';
+
+UPDATE livro
+SET nome = 'Livro A'
+WHERE nome like 'Livro 1'
+
+UPDATE livro
+set autor = 'Autor 1' 
+where autor = 'Autor A'
+
+UPDATE emprestimo
+set id_usuario = 2
+OBS: se não tiver o WHERE ele modificara todos

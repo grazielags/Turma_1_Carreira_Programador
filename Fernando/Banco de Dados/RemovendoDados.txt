@@ -1,0 +1,9 @@
+
+Removendo Dados
+DELETE FROM nomeTabela [WHERE condicao]
+WHERE: funciona como um filtro, caso não seja utilizado, a atualização se aplicará a todos os registros
+daquela tabela.
+
+Removendo o registro da tabela usuário que possui nome = Maria.
+DELETE FROM usuario
+WHERE nome like 'Maria'
