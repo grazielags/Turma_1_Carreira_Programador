@@ -5,7 +5,7 @@ public class DissolvendoeSomando {
 	public static void main(String[] args) {
 		String numero = JOptionPane.showInputDialog("Digite um número !");
 		if (numero.contains("-")) {
-			numero = numero.substring(1, numero.lenght());
+			numero = numero.substring(1, numero.length());
 			
 		}
 

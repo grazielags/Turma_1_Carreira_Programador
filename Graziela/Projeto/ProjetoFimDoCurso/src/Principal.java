@@ -11,7 +11,7 @@ public class Principal {
 	static String login;
 	static String senha;
 	static Integer idUsuarioLogado;
-	static boolean isAdmin = false;;
+	static boolean isAdmin = false;
 
 	public static void main(String[] args) {
 		try {
