@@ -1,3 +1,14 @@
 .metadata/
 .recommenders/
 RemoteSystemsTempFiles/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.project
+.classpath
+.target
